@@ -16,8 +16,7 @@ Add images and other contents using CSS record a screenshot of it.
 
 ## Code:
 ### HTML:
-
-{% load static %}
+```html
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -40,9 +39,9 @@ Add images and other contents using CSS record a screenshot of it.
     </section>
     </body>
 </html>
-
+```
 ### CSS:
-
+```
 body{
     color:rgb(255, 255, 255);
     font-family: Helvetica, sans-serif;
@@ -101,7 +100,7 @@ footer{
   #end{
     padding-right:60px;
   }
-
+```
 ## Output:
 ![image](https://github.com/aadhithya15/cover-page-design/assets/121165812/78694202-fa45-45b2-92f0-05bbeda64385)
 
